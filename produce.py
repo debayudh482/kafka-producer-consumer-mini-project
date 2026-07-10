@@ -32,15 +32,15 @@ def delivery_report(err, msg):
     
 
 kafka_config = {
-    'bootstrap.servers': 'pkc-619z3.us-east1.gcp.confluent.cloud:9092',
+    'bootstrap.servers': 'Bootstrap server',
     'sasl.mechanisms': 'PLAIN',
     'security.protocol': 'SASL_SSL',
-    'sasl.username': 'GOLQZTZY2L3FYG4X',
-    'sasl.password': 'cfltzrcmjxXol9ayf6xpl1aFPEVfplW24y1TXWHcb9XbkbexgcoEgwn4pbTSRaNQ'
+    'sasl.username': 'API key',
+    'sasl.password': 'API secret'
 }
 
-schema_registry_client = SchemaRegistryClient({'url': 'https://psrc-1o8pr0d.us-east1.gcp.confluent.cloud',
-                                             'basic.auth.user.info': '{}:{}'.format('EALUUCGFDPS2A5EH', 'cfltWGWAhHB5ks2ixHuwfV+n+Igq0sRrbP9IhQwniFyKourt7+9jaNkrUeq5g1aQ')})
+schema_registry_client = SchemaRegistryClient({'url': 'Endpoint',
+                                             'basic.auth.user.info': '{}:{}'.format('API key', 'API secret')})
 
 subject_name = 'product_data'
 schema_str = schema_registry_client.get_latest_version(subject_name).schema.schema_str
