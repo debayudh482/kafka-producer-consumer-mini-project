@@ -21,7 +21,7 @@ kafka_config = {
 
 # Create a Schema Registry client
 schema_registry_client = SchemaRegistryClient({
-  'url': 'https://psrc-1o8pr0d.us-east1.gcp.confluent.cloud',
+  'url': 'ENDPOINT',
   'basic.auth.user.info': '{}:{}'.format('API key', 'API secret')
 })
 
