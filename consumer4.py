@@ -10,11 +10,11 @@ from datetime import datetime
 
 # Define Kafka configuration
 kafka_config = {
-    'bootstrap.servers': 'pkc-619z3.us-east1.gcp.confluent.cloud:9092',
+    'bootstrap.servers': 'Bootstrap server',
     'sasl.mechanisms': 'PLAIN',
     'security.protocol': 'SASL_SSL',
-    'sasl.username': 'GOLQZTZY2L3FYG4X',
-    'sasl.password': 'cfltzrcmjxXol9ayf6xpl1aFPEVfplW24y1TXWHcb9XbkbexgcoEgwn4pbTSRaNQ',
+    'sasl.username': 'API key',
+    'sasl.password': 'API secret',
     'group.id': 'group31',
     'auto.offset.reset': 'latest'  # Start reading from the latest message if no offset is committed
 }
@@ -22,7 +22,7 @@ kafka_config = {
 # Create a Schema Registry client
 schema_registry_client = SchemaRegistryClient({
   'url': 'https://psrc-1o8pr0d.us-east1.gcp.confluent.cloud',
-  'basic.auth.user.info': '{}:{}'.format('EALUUCGFDPS2A5EH', 'cfltWGWAhHB5ks2ixHuwfV+n+Igq0sRrbP9IhQwniFyKourt7+9jaNkrUeq5g1aQ')
+  'basic.auth.user.info': '{}:{}'.format('API key', 'API secret')
 })
 
 # Fetch the latest Avro schema for the value
