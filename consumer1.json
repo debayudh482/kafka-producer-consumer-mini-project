@@ -1,0 +1,8 @@
+{"id": 123, "name": "Microwave Oven", "category": "home appliances", "price": 12499, "last_updated": "2026-07-10T19:30:00+00:00"}
+{"id": 134, "name": "Camping Tent", "category": "outdoor", "price": 8999, "last_updated": "2026-07-10T20:25:00+00:00"}
+{"id": 150, "name": "Tool Kit", "category": "tools", "price": 2999, "last_updated": "2026-07-10T21:45:00+00:00"}
+{"id": 151, "name": "Paint Brush Set", "category": "tools", "price": 799, "last_updated": "2026-07-10T21:50:00+00:00"}
+{"id": 152, "name": "Screwdriver Set", "category": "tools", "price": 999, "last_updated": "2026-07-10T21:55:00+00:00"}
+{"id": 156, "name": "Smoke Detector", "category": "home automation", "price": 2499, "last_updated": "2026-07-10T22:15:00+00:00"}
+{"id": 159, "name": "Voice Assistant Speaker", "category": "home automation", "price": 4999, "last_updated": "2026-07-10T22:30:00+00:00"}
+{"id": 160, "name": "Smart Display", "category": "home automation", "price": 8999, "last_updated": "2026-07-10T22:35:00+00:00"}
